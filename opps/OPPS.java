@@ -15,15 +15,22 @@ class Student{
         System.out.println(this.name);
         System.out.println(this.age);
     }
-    Student(String name,int age){
-        this.name=name;
-        this.age=age;
+    Student(Student s2){
+        this.name=s2.name;
+        this.age=s2.age;
+    }
+    Student(){
+        
     }
 }
 public class OPPS{
     public static void main(String[] args) {
-        Student s1= new Student("aditya",22);//new keyword is used to allocate space in memory where object is stored
-        s1.printInfo();
+        Student s1= new Student();//new keyword is used to allocate space in memory where object is stored
+        s1.name="aditya";
+        s1.age=24;
+
+        Student s2= new Student(s1);
+        s2.printInfo();
         
     }
 }
