@@ -25,7 +25,7 @@ class Student{
 } */
 
 //POLYMORPHISM//OVERLOADING
-class Student2{
+/*class Student2{
     String name;
     int age;
     public void printInfo(String name) {
@@ -37,16 +37,28 @@ class Student2{
     public void printInfo(String name, int age){
         System.out.println(name+" "+age);
     }
+}/* */
+
+
+//INHERITENCE
+
+class Shape{
+    String color;//base class or parent class
+}
+class Triangle extends Shape{
+
 }
 
 public class OPPS{
     public static void main(String[] args) {
-        Student s1= new Student();//new keyword is used to allocate space in memory where object is stored
+        /*Student s1= new Student();//new keyword is used to allocate space in memory where object is stored
         s1.name="aditya";
         s1.age=24;
 
         s1.printInfo(s1.age);
-        s1.printInfo(s1.name);
+        s1.printInfo(s1.name);/* */
+        Triangle t1= new Triangle();
+        t1.color="red";
         
     }
 }
