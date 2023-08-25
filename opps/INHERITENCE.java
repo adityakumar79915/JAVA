@@ -1,3 +1,4 @@
+
 class Shape{
     public void area(){
         System.out.println("display arae");
@@ -21,9 +22,5 @@ class Equilateraltriangle extends Triangle{
 
 public class INHERITENCE {
     public static void main(String[] args) {
-        Triangle t1=new Triangle();
-        t1.area(2,1);
-        System.out.println(t1);
-
     }
 }
