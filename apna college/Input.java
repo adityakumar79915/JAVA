@@ -5,7 +5,9 @@ public class Input {
         //how to take input
         Scanner sc = new Scanner(System.in);
         System.out.println("input your age :");
-        int age = sc.nextInt();
-        System.out.println(age);
+        //float age = sc.nextFloat();
+        //System.out.println(age);
+        String name = sc.nextLine();
+        System.out.println(name);
     }
 }
