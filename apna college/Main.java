@@ -2,7 +2,7 @@ class Person {
     String name; // instance variable
 
     Person(String name) {
-        // Using "this" to distinguish between instance variable and constructor parameter
+        // Using "this" to distinguish between instance variable and constructor parameter and this function is also used in constructor chaining
         this.name = name;
     }
 
