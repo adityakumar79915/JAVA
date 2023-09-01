@@ -14,7 +14,7 @@ public class OOPS {
     }
 } */
 
-interface Animal{
+/*interface Animal{
     void walk();
 }
 class Horse implements Animal{
@@ -35,3 +35,5 @@ public class OOPS{
         chicken.walk();
     }
 }
+*/
+
