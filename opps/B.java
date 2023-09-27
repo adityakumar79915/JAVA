@@ -15,7 +15,7 @@ public class B extends A{
         display();
         greet();
         super.display();
-        //super.greet();
+        //super.greet(); //to call super function should be of same name
     }
     public static void main(String[] args) {
         B b = new B();
