@@ -10,7 +10,7 @@ public class Multiplecatch {
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("ArrayIndexOutOfBounds Exception occurs");
         }
-        catch(Exception e){
+        catch(RuntimeException e){
             System.out.println("Parent Exception Occurs");
         }
         System.out.println("end of the code");
