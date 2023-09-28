@@ -8,7 +8,7 @@ public class Final {
             System.out.println("cant't divide integer by 0!");
         }
         finally{
-            System.out.println("the 'try catch' is finished.");
+            System.out.println("the 'try catch' is finished.");// it executed every time irrespecctive of exception is thrown or not.
         }
     }
 }
