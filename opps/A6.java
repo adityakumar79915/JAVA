@@ -10,3 +10,5 @@ class A6 {
         obj.print();
     }
 }
+//we use interface to acheive abstraction
+//it allows multiple inheritence
